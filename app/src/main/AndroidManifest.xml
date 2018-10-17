@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".chapter_one.ImagesActivity">
+            <intent-filter>
+                <action android:name="ImagesActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GuideActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
