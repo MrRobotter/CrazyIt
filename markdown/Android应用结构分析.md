@@ -35,7 +35,7 @@ android create project -n HelloWorld -t android-21 -p HelloWorld -k org.crazyit.
 ````
 					View
 					  |
-			___________________
+			__________|________
 			|
 		ViewGroup     
 ````
@@ -45,11 +45,11 @@ android create project -n HelloWorld -t android-21 -p HelloWorld -k org.crazyit.
 ````
 							Context(abs)
 								  |
-					__________________________
+					______________|___________
 					|
-			ContextWrapper
+			  ContextWrapper
 					|
-			_____________________
+			________|____________
 			|                   |
 	ContextThemeWrapper      Service(abs)
 		        |
