@@ -33,26 +33,35 @@ android create project -n HelloWorld -t android-21 -p HelloWorld -k org.crazyit.
 #### 界面编程与视图(View)组件
 继承结构
 ````
-					View
-					  |
-			__________|________
-			|
-		ViewGroup     
+		View
+	     | 
+	 	 |-ViewGroup
+	 	 	   |
+	 	       |-LinerLayout
+	 	       |	 |
+	 	       | TabLayout
+	 	       |
+	 	       |-FrameLay
+	 	       |
+	 	       |-RelativeLayout
+	 	       |
+	 	       |-GridLayout
+	 	       |
+	 	       |-AbsoluteLayout
 ````
 
 #### Context
 
 ````
-							Context(abs)
-								  |
-					______________|___________
-					|
-			  ContextWrapper
-					|
-			________|____________
-			|                   |
-	ContextThemeWrapper      Service(abs)
-		        |
-		     Activity
-
+	Context(abs)
+		 |
+	     |-ContextWrapper
+				 |
+				 |-ContextThemeWrapper
+				 |		   |
+				 |		Activity		
+				 |
+				 |  
+				 |-Service(abs)
+		       
 ````
