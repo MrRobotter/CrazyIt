@@ -65,3 +65,6 @@ android create project -n HelloWorld -t android-21 -p HelloWorld -k org.crazyit.
 				 |-Service(abs)
 		       
 ````
+#### 开发自定义View
+参考[自定义View](https://github.com/MrRobotter/AndroidGuide/blob/master/resource/Android/%E8%87%AA%E5%AE%9A%E4%B9%89View.md)
+
